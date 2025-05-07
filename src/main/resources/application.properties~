@@ -1,0 +1,6 @@
+spring.application.name=BITS-Assignment
+spring.datasource.url=jdbc:postgresql://localhost:5432/books
+spring.datasource.username=bits
+spring.datasource.password=bits
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect

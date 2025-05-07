@@ -1,0 +1,10 @@
+services:
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_DB: books
+      POSTGRES_USER: bits
+      POSTGRES_PASSWORD: bits
+    ports:
+      - "5432:5432"
